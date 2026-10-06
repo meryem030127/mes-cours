@@ -1,8 +1,43 @@
 body {
     font-family: Arial;
     background-color: #f2f2f2;
+    text-align: center;
 }
 
 h1 {
     color: blue;
+}
+
+section {
+    background-color: white;
+    padding: 15px;
+    margin: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+}
+
+li:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+button:hover {
+    background-color: darkblue;
+    cursor: pointer;
 }
